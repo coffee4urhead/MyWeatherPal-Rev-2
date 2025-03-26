@@ -3,6 +3,7 @@ import CaptionComponent from "./CaptionComponent"
 import Card from "./Card.tsx"
 import CTA from "./CTA"
 import CampaignCarousel from "./CampaignCarousel.tsx"
+import Footer from "./Footer.tsx"
 
 import "../../compiled-css-code/home-comp-styles/home-style.css"
 
@@ -60,6 +61,7 @@ export default function Home() {
                 imagePosition="left"
             />
             <CampaignCarousel />
+            <Footer/>
         </>
     )
 }
