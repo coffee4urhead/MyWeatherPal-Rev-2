@@ -8,14 +8,16 @@ header#head-sect {
     justify-content: space-between;
     width: 100%;
     height: 70px;
+    padding: 3rem;
 
     section.nav-sect {
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 20%;
+        width: 30%;
         margin-left: 10%;
         margin-right: 10%;
+        justify-content: center;
         gap: 30px;
 
         & a {

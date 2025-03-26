@@ -1,0 +1,14 @@
+article#cards-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+
+    & * {
+        flex-basis: 20%;
+    }
+}
