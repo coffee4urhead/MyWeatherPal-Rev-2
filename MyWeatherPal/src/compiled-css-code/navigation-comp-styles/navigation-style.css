@@ -1,0 +1,31 @@
+header#head-sect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+}
+header#head-sect section.nav-sect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 30px;
+}
+header#head-sect section.nav-sect a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+header#head-sect section.nav-sect a:nth-child(3) {
+  border-bottom: 2px solid #517B51;
+}
+header#head-sect h1 {
+  padding: 20px;
+  width: 70%;
+}
+
+/*# sourceMappingURL=navigation-style.css.map */

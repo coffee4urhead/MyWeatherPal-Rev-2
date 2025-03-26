@@ -1,0 +1,35 @@
+@import '../_web-colors.scss';
+
+header#head-sect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+
+    section.nav-sect {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
+        gap: 30px;
+
+        & a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.2em;
+        }
+
+        & a:nth-child(3) {
+            border-bottom: 2px solid $border-accent-color;
+        }
+    }
+
+    h1 {
+        padding: 20px;
+        width: 70%;
+    }
+}

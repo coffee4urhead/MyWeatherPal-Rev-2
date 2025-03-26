@@ -1,0 +1,13 @@
+@import '_web-colors.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
+
+body {
+    background-color: $gen-web-color;
+}
