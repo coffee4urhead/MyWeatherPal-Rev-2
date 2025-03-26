@@ -1,3 +1,4 @@
+@use "../fonts.scss";
 @import '../_web-colors.scss';
 
 header#head-sect {
@@ -31,5 +32,6 @@ header#head-sect {
     h1 {
         padding: 20px;
         width: 70%;
+        font-size: 2em;
     }
 }
