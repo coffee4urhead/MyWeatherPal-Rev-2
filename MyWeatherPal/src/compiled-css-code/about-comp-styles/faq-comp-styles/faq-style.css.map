@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"faq-style.css"}
+{"version":3,"sourceRoot":"","sources":["../../../sass-styles/about-comp-styles/faq-comp-styles/faq-style.scss","../../../sass-styles/_web-colors.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAIJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA,kBC/BU;EDgCV;EACA;;AAKI;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAIJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA,OCzDF;ED0DE;;AAKR;EACI;;AAGJ;EACI;EACA","file":"faq-style.css"}

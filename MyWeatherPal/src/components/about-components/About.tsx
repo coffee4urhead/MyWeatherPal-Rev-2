@@ -2,6 +2,7 @@
 import Navigation from "../home-components/Navigation";
 import Footer from "../home-components/Footer";
 import CaptionComponent from "../home-components/CaptionComponent";
+import FAQ from "./FAQ";
 
 import AboutUsImage from "../../assets/images/about-us-image.png";
 
@@ -17,6 +18,8 @@ export default function About() {
                     layout="side"
                     imagePosition="left"
                 />
+
+                <FAQ/>
             </main>
             <Footer />
         </>

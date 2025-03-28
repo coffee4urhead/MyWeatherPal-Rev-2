@@ -1,3 +1,62 @@
-
+section#faq-cont {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+section#faq-cont h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-bottom: 3px solid #517B51;
+  padding: 1rem;
+  margin-bottom: 1em;
+}
+section#faq-cont ol {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 20px;
+  list-style-type: none;
+}
+section#faq-cont ol li {
+  width: 100%;
+  height: auto;
+  background-color: #C9EEF0;
+  padding: 2rem;
+  border-radius: 20px;
+}
+section#faq-cont ol li details > summary {
+  list-style: none;
+  padding: 1em;
+  font-size: 2rem;
+  cursor: pointer;
+  position: relative;
+  padding-right: 3rem;
+}
+section#faq-cont ol li details > summary::-webkit-details-marker {
+  display: none;
+}
+section#faq-cont ol li details > summary::after {
+  content: "+";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  color: #517B51;
+  transition: all 0.3s ease;
+}
+section#faq-cont ol li details[open] > summary::after {
+  content: "-";
+}
+section#faq-cont ol li details p {
+  padding: 1rem;
+  font-size: 2rem;
+}
 
 /*# sourceMappingURL=faq-style.css.map */
