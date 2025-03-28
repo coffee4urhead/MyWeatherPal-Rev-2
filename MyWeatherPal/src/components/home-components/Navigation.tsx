@@ -14,7 +14,7 @@ export default function Navigation() {
                         Weather Page
                     </NavLink>
                     <NavLink
-                        to="/weather"
+                        to="/about"
                         className={({ isActive }) => isActive ? 'active-link' : ''}
                     >
                         About Us
