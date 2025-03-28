@@ -8,7 +8,7 @@ header#head-sect {
     .header-content {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap; // Allow wrapping
+        flex-wrap: wrap; 
         align-items: center;
         justify-content: space-between;
         gap: 1rem;
@@ -20,7 +20,7 @@ header#head-sect {
         font-size: 2em;
         padding: 0.5rem;
         margin: 0;
-        white-space: nowrap; // Prevent title from breaking
+        white-space: nowrap; 
     }
 
     section.nav-sect {
@@ -29,16 +29,33 @@ header#head-sect {
         align-items: center;
         justify-content: flex-end;
         gap: 30px;
-        flex-wrap: wrap; // Allow nav links to wrap
+        flex-wrap: wrap; 
 
         a {
+            position: relative;
             text-decoration: none;
-            color: black;
-            font-size: 1.2em;
-            white-space: nowrap; // Prevent individual links from breaking
+            color: inherit;
+            padding: 0.5rem 0;
+            
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0;
+                height: 2px;
+                background-color: $border-accent-color;
+                transition: width 0.3s ease;
+            }
 
-            &:nth-child(3) {
-                border-bottom: 2px solid $border-accent-color;
+            &:hover::after {
+                width: 100%;
+            }
+
+            &.active-link {
+                &::after {
+                    width: 100%;
+                }
             }
         }
     }

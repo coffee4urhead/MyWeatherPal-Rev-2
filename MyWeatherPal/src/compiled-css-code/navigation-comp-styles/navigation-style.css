@@ -67,13 +67,26 @@ header#head-sect section.nav-sect {
   flex-wrap: wrap;
 }
 header#head-sect section.nav-sect a {
+  position: relative;
   text-decoration: none;
-  color: black;
-  font-size: 1.2em;
-  white-space: nowrap;
+  color: inherit;
+  padding: 0.5rem 0;
 }
-header#head-sect section.nav-sect a:nth-child(3) {
-  border-bottom: 2px solid #517B51;
+header#head-sect section.nav-sect a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #517B51;
+  transition: width 0.3s ease;
+}
+header#head-sect section.nav-sect a:hover::after {
+  width: 100%;
+}
+header#head-sect section.nav-sect a.active-link::after {
+  width: 100%;
 }
 @media (max-width: 768px) {
   header#head-sect {
