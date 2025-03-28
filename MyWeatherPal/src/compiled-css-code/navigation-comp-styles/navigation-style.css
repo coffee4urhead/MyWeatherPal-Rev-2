@@ -39,36 +39,57 @@
   src: url("../assets/fonts//Euclid-Circular-A-SemiBold.ttf") format("truetype");
 }
 header#head-sect {
+  width: 100%;
+  padding: 1rem 3rem;
+}
+header#head-sect .header-content {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  height: 70px;
-  padding: 3rem;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header#head-sect h1 {
+  font-size: 2em;
+  padding: 0.5rem;
+  margin: 0;
+  white-space: nowrap;
 }
 header#head-sect section.nav-sect {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 30%;
-  margin-left: 10%;
-  margin-right: 10%;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 30px;
+  flex-wrap: wrap;
 }
 header#head-sect section.nav-sect a {
   text-decoration: none;
   color: black;
   font-size: 1.2em;
+  white-space: nowrap;
 }
 header#head-sect section.nav-sect a:nth-child(3) {
   border-bottom: 2px solid #517B51;
 }
-header#head-sect h1 {
-  padding: 20px;
-  width: 70%;
-  font-size: 2em;
+@media (max-width: 768px) {
+  header#head-sect {
+    padding: 1rem;
+  }
+  header#head-sect .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  header#head-sect section.nav-sect {
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    gap: 20px;
+  }
 }
 
 /*# sourceMappingURL=navigation-style.css.map */

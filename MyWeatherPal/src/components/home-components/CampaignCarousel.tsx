@@ -22,7 +22,7 @@ export default function CampaignCarousel() {
     };
 
     return (
-        <article id='campaign-carousel' style={{ width: "50rem", margin: "0 auto" }}>
+        <article id='campaign-carousel' style={{ width: "50%", margin: "0 auto" }}>
             <h1>Current campaigns</h1>
             <Slider {...settings}>
                 <div className="slide-container">
