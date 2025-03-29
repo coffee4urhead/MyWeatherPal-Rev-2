@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/MyWeatherPal-Rev-2/',
+  base: '/MyWeatherPal-Rev-2/home',
   build: {
     outDir: 'dist',
     rollupOptions: {
