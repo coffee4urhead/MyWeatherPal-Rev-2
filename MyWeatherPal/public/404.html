@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<script>
+  const repoName = '/MyWeatherPal-Rev-2/';
+  const path = location.pathname.startsWith(repoName) 
+    ? location.pathname 
+    : repoName + location.pathname.substring(1);
+  location.replace(path);
+</script>

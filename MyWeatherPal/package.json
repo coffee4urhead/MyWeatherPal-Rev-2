@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -t true"
   },
   "dependencies": {
     "motion": "^12.6.2",
@@ -35,6 +35,7 @@
     "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "react-slick": "^0.30.3",
+    "rollup-plugin-visualizer": "^5.14.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
