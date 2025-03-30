@@ -30,7 +30,7 @@ export default function CaptionComponent({ caption, captionContent, captionImage
     const smoothReverseX = useSpring(reverseX, { stiffness: 100, damping: 20 });
 
     return (
-        <article className={`caption-container layout-${layout}`} style={{ overflow: 'visible' }} ref={ref}>
+        <article className={`caption-container layout-${layout}`} style={{ overflow: 'hidden' }} ref={ref}>
             <motion.div
                 style={{
                     x: scrollYProgress.get() < 0.5 ? smoothX : smoothReverseX,

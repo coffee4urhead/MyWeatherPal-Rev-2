@@ -1,3 +1,43 @@
+@font-face {
+  font-family: "Euclid Circular A Bold Italic";
+  src: url("../assets/fonts/Euclid-Circular-A-Bold-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Euclid Circular A Bold";
+  src: url("../assets/fonts/Euclid-Circular-A-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Euclid Circular A Italic";
+  src: url("../assets/fonts/Euclid-Circular-A-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Euclid Circular A Light Italic";
+  src: url("../assets/fonts/Euclid-Circular-A-Light-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Euclid Circular A Light";
+  src: url("../assets/fonts/Euclid-Circular-A-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Euclid Circular A Medium Italic";
+  src: url("../assets/fonts/Euclid-Circular-A-Medium-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Euclid Circular A Medium";
+  src: url("../assets/fonts/Euclid-Circular-A-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Euclid Circular A Regular";
+  src: url("../assets/fonts/Euclid-Circular-A-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Euclid Circular A SemiBold Italic";
+  src: url("../assets/fonts/Euclid-Circular-A-SemiBold-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Euclid Circular A SemiBold";
+  src: url("../assets/fonts//Euclid-Circular-A-SemiBold.ttf") format("truetype");
+}
 footer#footer-section {
   background-color: #727BFA;
   width: 100%;
@@ -22,6 +62,32 @@ footer#footer-section section#invoice-section div.invoice-section-items {
   flex: 1;
   min-width: 300px;
 }
+footer#footer-section section#invoice-section div.invoice-section-items h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+footer#footer-section section#invoice-section div.invoice-section-items form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+footer#footer-section section#invoice-section div.invoice-section-items input {
+  width: 15rem;
+  height: 3rem;
+  background-color: #C9EEF0;
+  padding: 0.5em;
+  border: none;
+  border-radius: 10px;
+}
+footer#footer-section section#invoice-section div.invoice-section-items button {
+  width: 5rem;
+  height: 3rem;
+  font-family: "Euclid Circular A Medium";
+  background-color: #C9EEF0;
+  padding: 0.5em;
+  border: none;
+  border-radius: 10px;
+}
 footer#footer-section section#invoice-section img#footer-image {
   height: 20rem;
   width: auto;
@@ -43,22 +109,6 @@ footer#footer-section div.input-section {
   display: flex;
   flex-direction: row;
   gap: 20px;
-}
-footer#footer-section div.input-section input {
-  width: 15rem;
-  height: 3rem;
-  background-color: #C9EEF0;
-  padding: 0.5em;
-  border: none;
-  border-radius: 10px;
-}
-footer#footer-section div.input-section button {
-  width: 5rem;
-  height: 3rem;
-  background-color: #C9EEF0;
-  padding: 0.5em;
-  border: none;
-  border-radius: 10px;
 }
 footer#footer-section section#further-details-section {
   width: 100%;
@@ -83,6 +133,26 @@ footer#footer-section section#further-details-section div.further-details {
   display: flex;
   flex-direction: row;
   gap: 30px;
+}
+footer#footer-section section#further-details-section div.further-details a {
+  text-decoration: none;
+  color: inherit;
+}
+footer#footer-section section#further-details-section div.further-details a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #517B51;
+  transition: width 0.3s ease;
+}
+footer#footer-section section#further-details-section div.further-details a:hover::after {
+  width: 100%;
+}
+footer#footer-section section#further-details-section div.further-details a.active-link::after {
+  width: 100%;
 }
 footer#footer-section section#further-details-section div.website-information {
   display: flex;
