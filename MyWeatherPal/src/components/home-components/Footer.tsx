@@ -59,8 +59,8 @@ export default function Footer() {
             <section id='further-details-section'>
                 <div className='further-details'>
                     <Link to='/terms-and-services' onClick={(e) => { e.preventDefault(); openInNewTab('/terms-and-services'); }}>Terms and services</Link>
-                    <Link to='#' onClick={(e) => { e.preventDefault(); openInNewTab('#'); }}>Users guide</Link>
-                    <Link to='#' onClick={(e) => { e.preventDefault(); openInNewTab('#'); }}>FAQs</Link>
+                    <Link to='/users-guide' onClick={(e) => { e.preventDefault(); openInNewTab('/users-guide'); }}>Users guide</Link>
+                    <Link to='/about' onClick={(e) => { e.preventDefault(); openInNewTab('/about'); }}>FAQs</Link>
                 </div>
                 <div className='website-information'>
                     <p>© 2025-2030 MyWeatherPal LTD All rights reserved</p>
