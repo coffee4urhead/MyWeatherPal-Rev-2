@@ -1,0 +1,28 @@
+div.weather-charts {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 3rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+div.weather-charts h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #D4C9F0;
+}
+div.weather-charts div.chart-container {
+  width: 100%;
+  height: 400px;
+}
+div.weather-charts div.chart-container .recharts-responsive-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/*# sourceMappingURL=weather-chart-style.css.map */

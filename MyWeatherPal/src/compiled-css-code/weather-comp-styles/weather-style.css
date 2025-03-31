@@ -1,0 +1,59 @@
+main.weather-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-basis: 50%;
+}
+main.weather-container form {
+  display: flex;
+  gap: 1em;
+}
+main.weather-container input {
+  width: 15rem;
+  height: 3rem;
+  background-color: #C9EEF0;
+  padding: 0.5em;
+  border: none;
+  border-radius: 10px;
+}
+main.weather-container button {
+  width: 5rem;
+  height: 3rem;
+  font-family: "Euclid Circular A Medium";
+  background-color: #C9EEF0;
+  padding: 0.5em;
+  border: none;
+  border-radius: 10px;
+}
+main.weather-container div.weather-details {
+  width: 100%;
+}
+main.weather-container div.weather-results {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #C9EEF0;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 1.5em;
+}
+main.weather-container div.weather-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=weather-style.css.map */
