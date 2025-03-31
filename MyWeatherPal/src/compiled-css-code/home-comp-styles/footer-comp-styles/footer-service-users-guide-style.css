@@ -1,0 +1,62 @@
+article.user-guide {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+}
+article.user-guide section.guide-header {
+  padding: 1rem;
+  font-size: 2rem;
+}
+article.user-guide section.guide-section {
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+article.user-guide section.guide-section ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+article.user-guide footer.guide-footer {
+  padding: 2rem;
+  width: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 10px;
+}
+article.user-guide footer.guide-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+img.web-img {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  left: 1rem;
+}
+
+img.web-img-second {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  right: 1rem;
+}
+
+/*# sourceMappingURL=footer-service-users-guide-style.css.map */

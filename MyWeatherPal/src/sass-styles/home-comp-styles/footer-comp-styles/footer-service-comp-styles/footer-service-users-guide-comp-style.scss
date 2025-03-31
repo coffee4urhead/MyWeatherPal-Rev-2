@@ -1,0 +1,66 @@
+article.user-guide {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+
+    & section.guide-header {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    & section.guide-section {
+        background-color: white;
+        width: 50%;
+        border-radius: 10px;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        line-height: 2rem;
+        font-size: 1.2rem;
+
+        & ul {
+            list-style-type: none;
+            display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        }
+    }
+
+    & footer.guide-footer {
+        padding: 2rem;
+        width: 50%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        border-radius: 10px;
+
+        & a {
+            text-decoration: none;
+            color: black
+        }
+    }
+}
+
+@mixin image-mixin() {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+img.web-img {
+    @include image-mixin();
+    left: 1rem;
+}
+
+img.web-img-second {
+    @include image-mixin();
+    right: 1rem;
+}

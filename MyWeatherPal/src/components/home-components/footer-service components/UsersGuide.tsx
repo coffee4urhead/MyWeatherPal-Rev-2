@@ -1,14 +1,19 @@
 import Navigation from "../Navigation";
 
+import personOnAComputer from "../../../assets/images/person-computer.png";
+import personOnComputerSecond from "../../../assets/images/person-on-computer.png";
+
+import "../../../compiled-css-code/home-comp-styles/footer-comp-styles/footer-service-users-guide-style.css";
+
 export default function UsersGuide() {
     return (
         <>
             <Navigation />
             <article className="user-guide">
-                <header className="guide-header">
+                <section className="guide-header">
                     <h1>MyWeatherPal User Guide</h1>
                     <p className="subtitle">Your Personal Weather Companion</p>
-                </header>
+                </section>
 
                 <section className="guide-section" aria-labelledby="getting-started">
                     <h2 id="getting-started">1. Getting Started</h2>
@@ -25,6 +30,9 @@ export default function UsersGuide() {
                         </ul>
                     </section>
                 </section>
+
+                <img src={personOnAComputer} className='web-img' alt="person typing on a computer"/>
+                <img src={personOnComputerSecond} className='web-img-second' alt="person typing on a computer"/>
 
                 <section className="guide-section" aria-labelledby="navigation">
                     <h2 id="navigation">2. Navigation</h2>
@@ -111,7 +119,7 @@ export default function UsersGuide() {
                     <h2>Need Help?</h2>
                     <p>Contact our support team:</p>
                     <address>
-                        <p>📧 <a href="mailto:support@myweatherpal.com">support@myweatherpal.com</a></p>
+                        <p>📧 <a href="mailto:myweatherpal@gmail.com">support@myweatherpal.com</a></p>
                         <p>☎️ <a href="tel:+18009328437">+1 (800) WEATHER</a></p>
                     </address>
                 </footer>
