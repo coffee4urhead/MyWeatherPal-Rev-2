@@ -13,6 +13,7 @@ dist
 dist-ssr
 *.local
 .env
+sass-compile-commands.txt
 
 # Editor directories and files
 .vscode/*
