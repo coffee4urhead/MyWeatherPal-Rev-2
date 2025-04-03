@@ -1,4 +1,4 @@
-@import "../../web-colors.scss";
+@import '../../gen-mixins.scss';
 
 article#campaign-carousel {
     text-align: center;
@@ -45,18 +45,7 @@ article#campaign-carousel {
         }
 
         button {
-            background-color: $complementary-web-color;
-            padding: 0.5em;
-            font-family: 'Euclid Circular A Regular';
-            font-weight: 600;
-            margin-top: 20px;
-            font-size: 1em;
-            box-shadow: none;
-        }
-
-        button:hover {
-            box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.8);
-            transition: box-shadow 0.3s linear;
+            @include general-button();
         }
     }
 }

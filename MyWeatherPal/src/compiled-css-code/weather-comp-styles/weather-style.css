@@ -13,6 +13,7 @@ main.weather-container form {
   gap: 1em;
 }
 main.weather-container input {
+  width: 5rem;
   width: 15rem;
   height: 3rem;
   background-color: #C9EEF0;

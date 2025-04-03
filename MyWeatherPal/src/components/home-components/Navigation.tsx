@@ -20,7 +20,7 @@ export default function Navigation() {
                         About Us
                     </NavLink>
                     <NavLink
-                        to="/weather"
+                        to="/home"
                         className={({ isActive }) => isActive ? 'active-link' : ''}
                     >
                         Home

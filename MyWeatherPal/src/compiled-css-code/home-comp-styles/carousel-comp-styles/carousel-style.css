@@ -42,8 +42,7 @@ article#campaign-carousel section.carousel-content button {
   padding: 0.5em;
   font-family: "Euclid Circular A Regular";
   font-weight: 600;
-  margin-top: 20px;
-  font-size: 1em;
+  font-size: 1.5em;
   box-shadow: none;
 }
 article#campaign-carousel section.carousel-content button:hover {

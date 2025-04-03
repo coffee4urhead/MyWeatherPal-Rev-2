@@ -2,3 +2,9 @@ $gen-web-color: #D4C9F0;
 $secondary-web-color: #C9EEF0;
 $border-accent-color: #517B51;
 $complementary-web-color: #727BFA;
+
+body[data-date="2024-02-14"] {
+    $gen-web-color: #ff6b8b;
+    $secondary-web-color: #d43d6b;
+    $complementary-web-color: rgb(228, 144, 144);
+}

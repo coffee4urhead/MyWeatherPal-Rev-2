@@ -1,4 +1,4 @@
-@import "../web-colors.scss";
+@import "../gen-mixins.scss";
 
 main.weather-container {
     width: 100%;
@@ -16,12 +16,7 @@ main.weather-container {
     }
 
     & input {
-        width: 15rem;
-        height: 3rem;
-        background-color: $secondary-web-color;
-        padding: 0.5em;
-        border: none;
-        border-radius: 10px;
+        @include general-input();
     }
 
     & button {

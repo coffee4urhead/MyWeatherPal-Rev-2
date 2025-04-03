@@ -1,14 +1,11 @@
-@import '../../_web-colors.scss';
+@import '../../gen-mixins.scss';
 
 article.caption-container {
     margin: 8rem 0;
     width: 100%;
 
     h1.caption {
-        font-size: 2.5rem;
-        font-weight: 700;
-        border-bottom: 3px solid $border-accent-color;
-        padding: 2rem;
+        @include gen-caption();
     }
 
     p.content-text {

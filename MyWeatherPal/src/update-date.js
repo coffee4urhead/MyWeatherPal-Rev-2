@@ -1,0 +1,1 @@
+document.body.setAttribute('data-date', new Date().toISOString().slice(0, 10));
